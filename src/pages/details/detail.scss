@@ -1,0 +1,34 @@
+.details {
+    padding-left: 20px;
+}
+
+.ml {
+    margin-left: 20px;
+}
+
+.details-btn {
+    width: 200px;
+}
+
+.back-btn {
+    font-size: 50px;
+    margin-top: 20px;
+    color: rgb(23, 34, 243);
+}
+
+.del-btn {
+    font-size: 2rem;
+    color: red;
+    margin-right: 60px;
+}
+
+@media screen and (max-width: 786px) {
+    .ml {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .del-btn {
+        margin-right: 40px;
+    }
+}

@@ -1,0 +1,16 @@
+.AppHeader {
+    background-color: #ea6262;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+  }
+  
+  @media screen and (max-width: 786px) {
+    .AppHeader {
+      flex-direction: column;
+    }
+}
